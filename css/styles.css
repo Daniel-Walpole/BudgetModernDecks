@@ -11112,6 +11112,16 @@ blockquote {
   }
 }
 
+
+
+.child {
+  display: none;
+}
+
+.parent:hover + .child {
+  display: block;
+}
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
